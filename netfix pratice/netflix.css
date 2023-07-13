@@ -19,3 +19,96 @@
   -webkit-filter: blur(3px);
     mix-blend-mode: soft-light;
 }
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background: #000 !important;
+}
+
+html{
+  height: 100%;
+}
+
+.myImg1{
+  width: 400px;
+  height: auto;
+ padding-left: 90px;
+}
+.myImg2{
+  width: 400px;
+  height: auto;
+ padding-top: 5px;
+ padding-left: 90px;
+}
+.myImg3{
+  width: 400px;
+  height: auto;
+ padding-top: 5px;
+ padding-left: 90px;
+}
+.right{
+  float: right;
+  font-size: 40px;
+  width: 300px;
+  height: auto;
+  margin: 50px;
+  margin-right: 100px;
+  color: white;
+}
+.left{
+  float: left;
+  font-size: 40px;
+  width: 300px;
+  height: auto;
+  margin: 50px;
+  margin-left: 100px;
+  color: #fff;
+}
+footer {
+  background-color: #111;
+  color: #fff;
+  padding: 40px 20px;
+  margin-top: auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 20px;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+.space{
+display: inline;
+margin-right: 200px;
+padding-top: 40px;
+padding-right: 60px;
+}
+.aboveemailbutton{
+  font-size: 70px;
+  font-family:sans-serif;
+  position: relative; 
+  text-align: center;
+  color: #fff;
+}
+.belowemailbutton{
+  text-align: center;
+  font-size: 30px;
+  font-family:sans-serif;
+  position: relative;
+  color: #fff;
+}
+.span{
+  font-size: 30px;
+  padding-inline: 5px;
+ display: inline-flex;
+ color: #fff;
+}
+
+/* Add any additional styling as needed */

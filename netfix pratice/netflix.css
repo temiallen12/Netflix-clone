@@ -1,88 +1,92 @@
 .month{
-    width: 280px;
-    position: relative;
-    background-image: none;
-    background-repeat: no-repeat;
-    background-size: cover;
-    mix-blend-mode:lighten;
-    left: 140px;
-    bottom: 30px;
-    
+  width: 280px;
+  position: relative;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  mix-blend-mode:lighten;
+  left: 140px;
+  bottom: 30px;
+  
 }
 .must{
-   max-width:190em;
-    position: absolute;
-    top: 0;
-    left: 0;
-    object-fit: cover;
-    filter: blur(2px);
-  -webkit-filter: blur(3px);
-    mix-blend-mode: soft-light;
+ width:99em;
+ height: 500px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(2px);
+-webkit-filter: blur(3px);
+  mix-blend-mode: soft-light;
+}
+.sweet{
+
 }
 
-body {
-  min-height: 100%;
-  display: flex;
-  flex-direction: column;
-  margin: 0;
-  background: #000 !important;
-}
+/* body {
+min-height: 100%;
+display: flex;
+flex-direction: column;
+margin: 0;
+background: #000 !important;
+} */
 
 html{
-  height: 100%;
+height: 100%;
 }
 
 .myImg1{
-  width: 400px;
-  height: auto;
- padding-left: 90px;
+position: relative;
+width: 400px;
+height: auto;
+padding-left: 90px;
 }
 .myImg2{
-  width: 400px;
-  height: auto;
- padding-top: 5px;
- padding-left: 90px;
+width: 400px;
+height: auto;
+padding-top: 5px;
+padding-left: 90px;
 }
 .myImg3{
-  width: 400px;
-  height: auto;
- padding-top: 5px;
- padding-left: 90px;
+width: 400px;
+height: auto;
+padding-top: 5px;
+padding-left: 90px;
 }
 .right{
-  float: right;
-  font-size: 40px;
-  width: 300px;
-  height: auto;
-  margin: 50px;
-  margin-right: 100px;
-  color: white;
+float: right;
+font-size: 40px;
+width: 300px;
+height: auto;
+margin: 50px;
+margin-right: 100px;
+color: white;
 }
 .left{
-  float: left;
-  font-size: 40px;
-  width: 300px;
-  height: auto;
-  margin: 50px;
-  margin-left: 100px;
-  color: #fff;
+float: left;
+font-size: 40px;
+width: 300px;
+height: auto;
+margin: 50px;
+margin-left: 100px;
+color: #fff;
 }
 footer {
-  background-color: #111;
-  color: #fff;
-  padding: 40px 20px;
-  margin-top: auto;
+background-color: #111;
+color: #fff;
+padding: 40px 20px;
+margin-top: auto;
 }
 
 ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  margin-right: 20px;
+list-style: none;
+padding: 0;
+margin: 0;
+margin-right: 20px;
 }
 
 ul li {
-  margin-bottom: 5px;
+margin-bottom: 5px;
 }
 .space{
 display: inline;
@@ -91,24 +95,49 @@ padding-top: 40px;
 padding-right: 60px;
 }
 .aboveemailbutton{
-  font-size: 70px;
-  font-family:sans-serif;
-  position: relative; 
-  text-align: center;
-  color: #fff;
+font-size: 70px;
+font-family:sans-serif;
+position: relative; 
+text-align: center;
+color: #fff;
 }
 .belowemailbutton{
-  text-align: center;
-  font-size: 30px;
-  font-family:sans-serif;
-  position: relative;
-  color: #fff;
+text-align: center;
+font-size: 30px;
+font-family:sans-serif;
+position: relative;
+color: #fff;
 }
 .span{
-  font-size: 30px;
-  padding-inline: 5px;
- display: inline-flex;
- color: #fff;
+font-size: 30px;
+padding-inline: 5px;
+display: inline-flex;
+color: #fff;
 }
 
 /* Add any additional styling as needed */
+.firstme{
+background-color: #060505;
+position: relative;
+}
+/* .sup{
+position: relative;
+background-color: #060505;
+} */
+.wake{
+position: relative;
+background-color: #060505;
+}
+.metu{
+position: relative;
+background-color: #060505;
+padding-top: 50px;
+}
+.weme{
+position: relative;
+background-color: #060505;
+}
+.qunt{
+position: relative;
+background-color: #060505;
+}
